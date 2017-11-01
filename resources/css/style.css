@@ -1,0 +1,93 @@
+body {
+    font-size: 18px;
+    line-height: 1.4rem;
+}
+
+.text-light {
+    color: lightgray;
+}
+
+.text-dark {
+    color: dimgray;
+}
+
+/* Header */
+header {
+    position: fixed;
+    z-index: 10;
+    width: 100%;
+    height: 64px;
+    margin-top: -64px;
+    display: flex;
+    align-items: center;
+    background-color: white;
+}
+
+header .branding {
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+    padding-left: 24px;
+}
+
+header .branding img {
+    height: 32px;
+}
+
+header .branding span {
+    text-transform: uppercase;
+    font-size: 1.4rem;
+    font-weight: bold;
+}
+
+header nav {
+    margin-right: 24px;
+}
+
+header nav span {
+    margin-left: 16px;
+    font-size: 1.3rem;
+}
+
+/* Banner */
+.banner {
+    margin-top: 64px;
+    padding: 0 auto;
+    background-color: lightgray;
+    display: flex;
+    align-items: center;
+}
+
+.banner img {
+    width: 60%;
+    margin: 32px 24px;
+}
+
+.banner .text {
+    height: 100%;
+    width: 25%;
+}
+
+.banner h1 {
+    font-size: 3.2rem;
+    font-weight: bold;
+    line-height: 3rem;
+    padding: 1rem 0;
+}
+
+.banner h2 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    line-height: 1.7rem;
+    padding: 1rem 0;
+}
+
+.banner .button {
+    background-color: dimgray;
+    font-size: 1.4rem;
+    color: white;
+    text-align: center;
+    width: 100%;
+    padding: 8px 0;
+    margin: 1rem 0;
+}
