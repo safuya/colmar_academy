@@ -1,6 +1,6 @@
 body {
     font-size: 18px;
-    line-height: 1.4rem;
+    line-height: 1.6rem;
 }
 
 .text-light {
@@ -11,6 +11,32 @@ body {
     color: dimgray;
 }
 
+h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    line-height: 3rem;
+    padding: 1rem 0;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+}
+
+.large-column {
+    width: 60%;
+}
+
+.news-cards {
+    width: 40%;
+}
+
+.news-card {
+    padding: 16px;
+}
+
+
+
 /* Header */
 header {
     position: fixed;
@@ -18,15 +44,12 @@ header {
     width: 100%;
     height: 64px;
     margin-top: -64px;
-    display: flex;
-    align-items: center;
     background-color: white;
+    border: 1px solid lightgray;
 }
 
 header .branding {
     flex-grow: 1;
-    display: flex;
-    align-items: center;
     padding-left: 24px;
 }
 
@@ -54,8 +77,6 @@ header nav span {
     margin-top: 64px;
     padding: 0 auto;
     background-color: lightgray;
-    display: flex;
-    align-items: center;
 }
 
 .banner img {
@@ -70,9 +91,6 @@ header nav span {
 
 .banner h1 {
     font-size: 3.2rem;
-    font-weight: bold;
-    line-height: 3rem;
-    padding: 1rem 0;
 }
 
 .banner h2 {
@@ -90,4 +108,26 @@ header nav span {
     width: 100%;
     padding: 8px 0;
     margin: 1rem 0;
+}
+
+/* Information */
+.large-column img {
+    width: 90%;
+    display: block;
+    margin: 0 auto;
+}
+
+.large-column h1 {
+    margin: 0 5%;
+}
+
+.large-column blockquote {
+    margin: 0 5%;
+    padding: 1rem 0;
+    line-height: 1.6rem;
+}
+
+.large-column figcaption {
+    margin: 0 5%;
+    padding: 1rem 0;
 }
